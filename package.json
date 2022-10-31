@@ -1,0 +1,20 @@
+{
+  "name": "wave-act-runner",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "report": "npm run report:ember",
+    "report:ember": "node --experimental-specifier-resolution=node --experimental-modules --no-warnings --loader ts-node/esm ./src/runEmberTempaleLint.ts"
+  },
+  "dependencies": {
+    "act-tools": "act-rules/act-tools",
+    "dotenv": "^16.0.1",
+    "ember-template-lint": "^4.16.1",
+    "node-fetch": "^3.2.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.39"
+  }
+}
