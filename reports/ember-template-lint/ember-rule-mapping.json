@@ -30,7 +30,7 @@
   },
   "b5c3f8": {
     "ruleName": "HTML page has `lang` attribute",
-    "consistency": "complete",
+    "consistency": "partial",
     "procedureNames": [
       "require-lang-attribute"
     ]
@@ -148,7 +148,7 @@
   },
   "5c01ea": {
     "ruleName": "ARIA state or property is permitted",
-    "consistency": "complete",
+    "consistency": "partial",
     "procedureNames": [
       "no-invalid-aria-attributes"
     ]
@@ -162,7 +162,7 @@
   },
   "e6952f": {
     "ruleName": "Attribute is not duplicated",
-    "consistency": "complete",
+    "consistency": "partial",
     "procedureNames": [
       "no-duplicate-attributes"
     ]
@@ -352,7 +352,7 @@
   },
   "5effbb": {
     "ruleName": "Link in context is descriptive",
-    "consistency": "complete",
+    "consistency": "partial",
     "procedureNames": [
       "no-invalid-link-text"
     ]
