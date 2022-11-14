@@ -1,0 +1,487 @@
+{
+  "73f2c2": {
+    "ruleName": "`autocomplete` attribute has valid value",
+    "consistency": null,
+    "procedureNames": [
+      "autocomplete-valid"
+    ]
+  },
+  "97a4e1": {
+    "ruleName": "Button has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "de46e4": {
+    "ruleName": "Element with `lang` attribute has valid language tag",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "46ca7f": {
+    "ruleName": "Element marked as decorative is not exposed",
+    "consistency": "partial",
+    "procedureNames": []
+  },
+  "e086e5": {
+    "ruleName": "Form field has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "label-has-associated-control"
+    ]
+  },
+  "b5c3f8": {
+    "ruleName": "HTML page has `lang` attribute",
+    "consistency": "complete",
+    "procedureNames": [
+      "html-has-lang"
+    ]
+  },
+  "bf051a": {
+    "ruleName": "HTML page `lang` attribute has valid language tag",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "5b7ae0": {
+    "ruleName": "HTML page `lang` and `xml:lang` attributes have matching values",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "2779a5": {
+    "ruleName": "HTML page has non-empty title",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "59796f": {
+    "ruleName": "Image button has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "alt-text"
+    ]
+  },
+  "23a2a8": {
+    "ruleName": "Image has non-empty accessible name",
+    "consistency": "partial",
+    "procedureNames": [
+      "alt-text"
+    ]
+  },
+  "24afc2": {
+    "ruleName": "Letter spacing in `style` attributes is not `!important`",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c487ae": {
+    "ruleName": "Link has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "anchor-has-content"
+    ]
+  },
+  "9e45ec": {
+    "ruleName": "Word spacing in `style` attributes is not `!important`",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "7d6734": {
+    "ruleName": "SVG element with explicit role has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "307n5z": {
+    "ruleName": "Element with presentational children has no focusable content",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "a25f45": {
+    "ruleName": "Headers attribute specified on a cell refers to cells in the same table element",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "6cfa84": {
+    "ruleName": "Element with aria-hidden has no content in sequential focus navigation",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "78fd32": {
+    "ruleName": "Line height in style attributes is not !important",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "bc659a": {
+    "ruleName": "Meta element has no refresh delay",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "b4f0c3": {
+    "ruleName": "Meta viewport allows for zoom",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "8fc3b6": {
+    "ruleName": "Object element rendering non-text content has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "alt-text"
+    ]
+  },
+  "5f99a7": {
+    "ruleName": "ARIA attribute is defined in WAI-ARIA",
+    "consistency": "partial",
+    "procedureNames": [
+      "aria-props"
+    ]
+  },
+  "ff89c9": {
+    "ruleName": "ARIA required context role",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "bc4a75": {
+    "ruleName": "ARIA required owned elements",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "5c01ea": {
+    "ruleName": "ARIA state or property is permitted",
+    "consistency": null,
+    "procedureNames": [
+      "role-supports-aria-props"
+    ]
+  },
+  "6a7281": {
+    "ruleName": "ARIA state or property has valid value",
+    "consistency": null,
+    "procedureNames": [
+      "aria-proptypes"
+    ]
+  },
+  "e6952f": {
+    "ruleName": "Attribute is not duplicated",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "afb423": {
+    "ruleName": "Audio element content is media alternative for text",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "80f0bf": {
+    "ruleName": "Audio or video element avoids automatically playing audio",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "e7aa44": {
+    "ruleName": "Audio element content has text alternative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "2eb176": {
+    "ruleName": "Audio element content has transcript",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "aaa1bf": {
+    "ruleName": "Audio or video element that plays automatically has no audio that lasts more than 3 seconds",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "4c31df": {
+    "ruleName": "Audio or video element that plays automatically has a control mechanism",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "efbfc7": {
+    "ruleName": "Text content that changes automatically can be paused, stopped or hidden",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "3e12e1": {
+    "ruleName": "Block of repeated content is collapsible",
+    "consistency": "partial",
+    "procedureNames": []
+  },
+  "cf77f2": {
+    "ruleName": "Bypass Blocks of Repeated Content",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "b33eff": {
+    "ruleName": "Orientation of the page is not restricted using CSS transform property",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c249d5": {
+    "ruleName": "Device motion based changes to the content can be disabled",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "7677a9": {
+    "ruleName": "Device motion based changes to the content can also be created from the user interface",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "047fe0": {
+    "ruleName": "Document has heading for non-repeated content",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ye5d6e": {
+    "ruleName": "Document has an instrument to move focus to non-repeated content",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "b40fd1": {
+    "ruleName": "Document has a landmark with non-repeated content",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "off6ek": {
+    "ruleName": "HTML element language subtag matches language",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "80af7b": {
+    "ruleName": "Focusable element has no keyboard trap",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ebe86a": {
+    "ruleName": "Focusable element has no keyboard trap via non-standard navigation",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "a1b64e": {
+    "ruleName": "Focusable element has no keyboard trap via standard navigation",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "cc0f0a": {
+    "ruleName": "Form field label is descriptive",
+    "consistency": null,
+    "procedureNames": [
+      "control-has-associated-label"
+    ]
+  },
+  "b49b2e": {
+    "ruleName": "Heading is descriptive",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ffd0e9": {
+    "ruleName": "Heading has non-empty accessible name",
+    "consistency": "partial",
+    "procedureNames": [
+      "heading-has-content"
+    ]
+  },
+  "ucwvc8": {
+    "ruleName": "HTML page language subtag matches default language",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c4a8a4": {
+    "ruleName": "HTML page title is descriptive",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "3ea0c8": {
+    "ruleName": "Id attribute value is unique",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "4b1c6c": {
+    "ruleName": "Iframe elements with identical accessible names have equivalent purpose",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "cae760": {
+    "ruleName": "Iframe element has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "iframe-has-title"
+    ]
+  },
+  "akn7bn": {
+    "ruleName": "Iframe with negative tabindex has no interactive elements",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "qt1vmo": {
+    "ruleName": "Image accessible name is descriptive",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "9eb3f6": {
+    "ruleName": "DEPRECATED — Image filename is accessible name for image",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "0va7u6": {
+    "ruleName": "HTML images contain no text",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "e88epe": {
+    "ruleName": "Image not in the accessibility tree is decorative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "36b590": {
+    "ruleName": "Error message describes invalid form field value",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "aizyf1": {
+    "ruleName": "Link is descriptive",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "5effbb": {
+    "ruleName": "Link in context is descriptive",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "b20e66": {
+    "ruleName": "Links with identical accessible names have equivalent purpose",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "fd3a94": {
+    "ruleName": "Links with identical accessible names and same context serve equivalent purpose",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "m6b1q3": {
+    "ruleName": "Menuitem has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "bisz58": {
+    "ruleName": "Meta element has no refresh delay (no exception)",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "9bd38c": {
+    "ruleName": "Content has alternative for visual reference",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ffbc54": {
+    "ruleName": "No keyboard shortcut uses only printable characters",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "674b10": {
+    "ruleName": "Role attribute has valid value",
+    "consistency": null,
+    "procedureNames": [
+      "aria-role"
+    ]
+  },
+  "4e8ab6": {
+    "ruleName": "Element with role attribute has required states and properties",
+    "consistency": "complete",
+    "procedureNames": [
+      "role-has-required-aria-props"
+    ]
+  },
+  "0ssw9k": {
+    "ruleName": "Scrollable element is keyboard accessible",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "oj04fd": {
+    "ruleName": "Element in sequential focus order has visible focus",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "d0f69e": {
+    "ruleName": "Table header cell has assigned cells",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "afw4f7": {
+    "ruleName": "Text has minimum contrast",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "09o5cg": {
+    "ruleName": "Text has enhanced contrast",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "eac66b": {
+    "ruleName": "Video element auditory content has accessible alternative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c5a4ea": {
+    "ruleName": "Video element visual content has accessible alternative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ab4d13": {
+    "ruleName": "Video element content is media alternative for text",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "1ea59c": {
+    "ruleName": "Video element visual content has audio description",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "f51b46": {
+    "ruleName": "Video element auditory content has captions",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "f196ce": {
+    "ruleName": "DEPRECATED — Video element visual content has description track",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c3232f": {
+    "ruleName": "Video element visual-only content has accessible alternative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "fd26cf": {
+    "ruleName": "Video element visual-only content is media alternative for text",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "d7ba54": {
+    "ruleName": "Video element visual-only content has audio track alternative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ac7dc6": {
+    "ruleName": "DEPRECATED — Video element visual-only content has description track",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ee13b5": {
+    "ruleName": "Video element visual-only content has transcript",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "1ec09b": {
+    "ruleName": "Video element visual content has strict accessible alternative",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "1a02b0": {
+    "ruleName": "Audio and visuals of video element have transcript",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "2ee8b8": {
+    "ruleName": "Visible label is part of accessible name",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "59br37": {
+    "ruleName": "Zoomed text node is not clipped with CSS overflow",
+    "consistency": null,
+    "procedureNames": []
+  }
+}

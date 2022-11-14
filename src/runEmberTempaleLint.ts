@@ -1,30 +1,56 @@
-import TemplateLinter from 'ember-template-lint';
-import { ActTestRunner, TestCase } from 'act-tools';
-import { writeFileSync } from 'fs';
+import TemplateLinter, { LintResult } from 'ember-template-lint';
+import { ActTestRunner, TestCase, TestResult } from 'act-tools';
 
-const config = { extends: 'a11y' };
-let linter = new TemplateLinter({ config });
+const actRunner = new ActTestRunner({
+  fileTypes: ['html'],
+  implementor: `ember-template-lint`
+});
 
-(async () => {
-  const actRunner = new ActTestRunner({
-    fileTypes: ['html'],
-    implementor: {
-      name: 'ember-template-lint',
-      vendorName: 'ember-template-lint',
-      versionNumber: '4.16.1'
-    }
-  });
+// Tell ActRunner where to load & store the reports
+const reportRoot = `./reports/ember-template-lint/`
+actRunner.setReporting({
+  earlReport: `${reportRoot}/ember-earl.json`,
+  actReport: `${reportRoot}/ember-act-report.json`,
+  ruleMapping: `${reportRoot}/ember-rule-mapping.json`,
+});
 
-  const actReport = await actRunner.run(async (testCase: TestCase) => {
-    const source = await testCase.fetchSource();
-    const filePath = testCase.relativePath;
-    const results = await linter.verify({ source, filePath });
-    return results.map(({ rule }) => rule);
-  });
+// Run ACT test cases
+actRunner.run(async (testCase: TestCase, procedureIds?: string[]) => {
+  // Create the linter
+  const config = getConfig(procedureIds);
+  const linter = new TemplateLinter({ config });
 
-  const earlText = JSON.stringify(actReport.getEarlReport(), null, 2);
-  writeFileSync('./earl/ember-template-lint.json', earlText, 'utf8');
+  // Run ember-template-lint
+  const filePath = testCase.relativePath;
+  const source = await testCase.fetchSource({ assertNoRender: true });
+  const results = await linter.verify({ filePath, source });
 
-  const { approvedRules, proposedRules } = actReport.getImplementationMapping();
-  console.table({ approvedRules, proposedRules });
-})();
+  // Convert the results to the expected report
+  return getFailedProcedureIds(results).map(procedureId => ({
+    procedureId,
+    outcome: 'failed',
+    requirementsFromDocs:
+      'https://github.com/ember-template-lint/ember-template-lint/' +
+      `blob/master/docs/rule/${procedureId}.md`
+  }))
+});
+
+// Create EmberTemplateLint config object
+function getConfig(procedureIds?: string[]): any {
+  if (!procedureIds) {
+    return { extends: 'a11y' } // Default, run all a11y rules
+  }
+  const rules: Record<string, boolean> = {}
+  for (const procedureId of procedureIds) {
+    rules[procedureId] = true;
+  }
+  return { rules };
+}
+
+function getFailedProcedureIds(results: LintResult[]): string[] {
+  const procedureIds: string[] = []
+  for (const { rule: procedureId } of results) {
+    if (procedureId) procedureIds.push(procedureId);
+  }
+  return procedureIds;
+}

@@ -5,7 +5,8 @@ declare module 'ember-template-lint' {
   }
 
   type LintResult = {
-    rule: string
+    rule?: string
+    fatal?: boolean
     severity: number
     filePath: string
     line: number
