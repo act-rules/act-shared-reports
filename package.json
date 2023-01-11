@@ -4,7 +4,8 @@
   "version": "0.2.0",
   "type": "module",
   "scripts": {
-    "report": "npm run report:ember && report:jsx-a11y",
+    "report": "npm run report:ember && npm run report:jsx-a11y && npm run report:htmlcs",
+    "report:htmlcs": "yarn ts-node ./src/runHtmlCodeSniffer.ts",
     "report:ember": "yarn ts-node ./src/runEmberTempaleLint.ts",
     "report:jsx-a11y": "yarn ts-node ./src/runJsxA11y.ts",
     "ts-node": "node --experimental-specifier-resolution=node --experimental-modules --no-warnings --loader ts-node/esm"
@@ -16,6 +17,7 @@
     "eslint": "^8.27.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "node-fetch": "^3.2.5",
+    "puppeteer-core": "^19.5.0",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
   },

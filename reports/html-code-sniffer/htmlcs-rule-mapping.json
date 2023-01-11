@@ -1,0 +1,661 @@
+{
+  "73f2c2": {
+    "ruleName": "`autocomplete` attribute has valid value",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "97a4e1": {
+    "ruleName": "Button has non-empty accessible name",
+    "consistency": "partial",
+    "procedureNames": [
+      "4_1_2.H91.Span.Name"
+    ]
+  },
+  "de46e4": {
+    "ruleName": "Element with `lang` attribute has valid language tag",
+    "consistency": null,
+    "procedureNames": [
+      "3_1_1.H57.2",
+      "2_4_2.H25.1.NoTitleEl",
+      "3_1_2.H58.1.Lang",
+      "1_1_1.H67.2"
+    ]
+  },
+  "46ca7f": {
+    "ruleName": "Element marked as decorative is not exposed",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "e086e5": {
+    "ruleName": "Form field has non-empty accessible name",
+    "consistency": "minimal",
+    "procedureNames": [
+      "4_1_2.ARIA6",
+      "1_3_1.ARIA6",
+      "4_1_2.ARIA16,ARIA9",
+      "1_3_1.ARIA16,ARIA9",
+      "1_3_1.H44.NotFormControl"
+    ]
+  },
+  "b5c3f8": {
+    "ruleName": "HTML page has `lang` attribute",
+    "consistency": "partial",
+    "procedureNames": [
+      "3_1_1.H57.3.Lang",
+      "3_1_1.H57.2"
+    ]
+  },
+  "bf051a": {
+    "ruleName": "HTML page `lang` attribute has valid language tag",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl",
+      "3_1_1.H57.3.Lang"
+    ]
+  },
+  "5b7ae0": {
+    "ruleName": "HTML page `lang` and `xml:lang` attributes have matching values",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_1.H64.1",
+      "3_1_1.H57.3.XmlLang",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "2779a5": {
+    "ruleName": "HTML page has non-empty title",
+    "consistency": "partial",
+    "procedureNames": [
+      "2_4_2.H25.1.EmptyTitle"
+    ]
+  },
+  "59796f": {
+    "ruleName": "Image button has non-empty accessible name",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_3_1.ARIA16,ARIA9"
+    ]
+  },
+  "23a2a8": {
+    "ruleName": "Image has non-empty accessible name",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_1_1.H67.2"
+    ]
+  },
+  "24afc2": {
+    "ruleName": "Letter spacing in `style` attributes is not `!important`",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c487ae": {
+    "ruleName": "Link has non-empty accessible name",
+    "consistency": "partial",
+    "procedureNames": [
+      "4_1_2.H91.A.NoContent"
+    ]
+  },
+  "9e45ec": {
+    "ruleName": "Word spacing in `style` attributes is not `!important`",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "7d6734": {
+    "ruleName": "SVG element with explicit role has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "307n5z": {
+    "ruleName": "Element with presentational children has no focusable content",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.InputCheckbox.Name",
+      "1_3_1.F68"
+    ]
+  },
+  "a25f45": {
+    "ruleName": "Headers attribute specified on a cell refers to cells in the same table element",
+    "consistency": "partial",
+    "procedureNames": [
+      "1_3_1.H43.IncorrectAttr"
+    ]
+  },
+  "6cfa84": {
+    "ruleName": "Element with aria-hidden has no content in sequential focus navigation",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "78fd32": {
+    "ruleName": "Line height in style attributes is not !important",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "bc659a": {
+    "ruleName": "Meta element has no refresh delay",
+    "consistency": "partial",
+    "procedureNames": [
+      "2_2_1.F40.2"
+    ]
+  },
+  "b4f0c3": {
+    "ruleName": "Meta viewport allows for zoom",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_10.C32,C31,C33,C38,SCR34,G206"
+    ]
+  },
+  "8fc3b6": {
+    "ruleName": "Object element rendering non-text content has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "1_1_1.H53,ARIA6",
+      "2_4_2.H25.1.NoTitleEl",
+      "3_1_1.H57.2",
+      "2_1_2.F10"
+    ]
+  },
+  "5f99a7": {
+    "ruleName": "ARIA attribute is defined in WAI-ARIA",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "ff89c9": {
+    "ruleName": "ARIA required context role",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "bc4a75": {
+    "ruleName": "ARIA required owned elements",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "5c01ea": {
+    "ruleName": "ARIA state or property is permitted",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.Div.Name"
+    ]
+  },
+  "6a7281": {
+    "ruleName": "ARIA state or property has valid value",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "e6952f": {
+    "ruleName": "Attribute is not duplicated",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.InputCheckbox.Name",
+      "1_3_1.F68",
+      "1_1_1.H67.2"
+    ]
+  },
+  "afb423": {
+    "ruleName": "Audio element content is media alternative for text",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "80f0bf": {
+    "ruleName": "Audio or video element avoids automatically playing audio",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "e7aa44": {
+    "ruleName": "Audio element content has text alternative",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "2eb176": {
+    "ruleName": "Audio element content has transcript",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "aaa1bf": {
+    "ruleName": "Audio or video element that plays automatically has no audio that lasts more than 3 seconds",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "4c31df": {
+    "ruleName": "Audio or video element that plays automatically has a control mechanism",
+    "consistency": "partial",
+    "procedureNames": [
+      "4_1_2.H91.Button.Name"
+    ]
+  },
+  "efbfc7": {
+    "ruleName": "Text content that changes automatically can be paused, stopped or hidden",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_3_F24.F24.FGColour",
+      "1_4_10.C32,C31,C33,C38,SCR34,G206"
+    ]
+  },
+  "3e12e1": {
+    "ruleName": "Block of repeated content is collapsible",
+    "consistency": null,
+    "procedureNames": [
+      "3_1_1.H57.2",
+      "2_1_1.G90",
+      "4_1_2.H91.A.Placeholder"
+    ]
+  },
+  "cf77f2": {
+    "ruleName": "Bypass Blocks of Repeated Content",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.A.Placeholder",
+      "3_1_1.H57.2"
+    ]
+  },
+  "b33eff": {
+    "ruleName": "Orientation of the page is not restricted using CSS transform property",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "c249d5": {
+    "ruleName": "Device motion based changes to the content can be disabled",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_10.C32,C31,C33,C38,SCR34,G206"
+    ]
+  },
+  "7677a9": {
+    "ruleName": "Device motion based changes to the content can also be created from the user interface",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_3_F24.F24.FGColour",
+      "1_4_10.C32,C31,C33,C38,SCR34,G206"
+    ]
+  },
+  "047fe0": {
+    "ruleName": "Document has heading for non-repeated content",
+    "consistency": null,
+    "procedureNames": [
+      "1_1_1.H67.2",
+      "3_1_1.H57.2",
+      "4_1_2.H91.A.Placeholder"
+    ]
+  },
+  "ye5d6e": {
+    "ruleName": "Document has an instrument to move focus to non-repeated content",
+    "consistency": "partial",
+    "procedureNames": [
+      "2_4_1.G1,G123,G124.NoSuchID"
+    ]
+  },
+  "b40fd1": {
+    "ruleName": "Document has a landmark with non-repeated content",
+    "consistency": null,
+    "procedureNames": [
+      "3_1_1.H57.2",
+      "4_1_2.H91.A.Placeholder"
+    ]
+  },
+  "off6ek": {
+    "ruleName": "HTML element language subtag matches language",
+    "consistency": "partial",
+    "procedureNames": [
+      "1_1_1.H37"
+    ]
+  },
+  "80af7b": {
+    "ruleName": "Focusable element has no keyboard trap",
+    "consistency": "minimal",
+    "procedureNames": [
+      "2_1_1.G90",
+      "1_3_1.H48"
+    ]
+  },
+  "ebe86a": {
+    "ruleName": "Focusable element has no keyboard trap via non-standard navigation",
+    "consistency": "minimal",
+    "procedureNames": [
+      "2_1_1.G90",
+      "1_3_1.H48"
+    ]
+  },
+  "a1b64e": {
+    "ruleName": "Focusable element has no keyboard trap via standard navigation",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "cc0f0a": {
+    "ruleName": "Form field label is descriptive",
+    "consistency": "partial",
+    "procedureNames": [
+      "4_1_2.H91.Fieldset.Name",
+      "1_3_1.H71.NoLegend"
+    ]
+  },
+  "b49b2e": {
+    "ruleName": "Heading is descriptive",
+    "consistency": null,
+    "procedureNames": [
+      "1_3_1.H42.2",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "ffd0e9": {
+    "ruleName": "Heading has non-empty accessible name",
+    "consistency": "partial",
+    "procedureNames": [
+      "1_3_1.H42.2"
+    ]
+  },
+  "ucwvc8": {
+    "ruleName": "HTML page language subtag matches default language",
+    "consistency": "partial",
+    "procedureNames": [
+      "1_1_1.H37"
+    ]
+  },
+  "c4a8a4": {
+    "ruleName": "HTML page title is descriptive",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "3ea0c8": {
+    "ruleName": "Id attribute value is unique",
+    "consistency": "partial",
+    "procedureNames": [
+      "4_1_1.F77"
+    ]
+  },
+  "4b1c6c": {
+    "ruleName": "Iframe elements with identical accessible names have equivalent purpose",
+    "consistency": null,
+    "procedureNames": [
+      "1_1_1.H53,ARIA6",
+      "2_1_2.F10",
+      "2_4_1.H64.1",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "cae760": {
+    "ruleName": "Iframe element has non-empty accessible name",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_1.H64.1"
+    ]
+  },
+  "akn7bn": {
+    "ruleName": "Iframe with interactive elements is not excluded from tab-order",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_1.H64.1"
+    ]
+  },
+  "qt1vmo": {
+    "ruleName": "Image accessible name is descriptive",
+    "consistency": null,
+    "procedureNames": [
+      "1_4_3_F24.F24.BGColour",
+      "1_1_1.H67.2",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "9eb3f6": {
+    "ruleName": "DEPRECATED — Image filename is accessible name for image",
+    "consistency": null,
+    "procedureNames": [
+      "1_1_1.H67.2",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "0va7u6": {
+    "ruleName": "HTML images contain no text",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_1_1.H67.2"
+    ]
+  },
+  "e88epe": {
+    "ruleName": "Image not in the accessibility tree is decorative",
+    "consistency": null,
+    "procedureNames": [
+      "1_4_3_F24.F24.BGColour",
+      "1_1_1.H67.2"
+    ]
+  },
+  "36b590": {
+    "ruleName": "Error message describes invalid form field value",
+    "consistency": null,
+    "procedureNames": [
+      "3_2_2.H32.2"
+    ]
+  },
+  "aizyf1": {
+    "ruleName": "Link is descriptive",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.A.Placeholder"
+    ]
+  },
+  "5effbb": {
+    "ruleName": "Link in context is descriptive",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_3_1.H39.3.NoCaption",
+      "1_3_1_A.G141"
+    ]
+  },
+  "b20e66": {
+    "ruleName": "Links with identical accessible names have equivalent purpose",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_1.H64.1",
+      "4_1_2.H91.A.Placeholder",
+      "1_1_1.H24",
+      "2_1_1.G90",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "fd3a94": {
+    "ruleName": "Links with identical accessible names and same context serve equivalent purpose",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.A.Placeholder",
+      "1_1_1.H24",
+      "2_1_1.G90",
+      "1_3_1.H48",
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "m6b1q3": {
+    "ruleName": "Menuitem has non-empty accessible name",
+    "consistency": "partial",
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "bisz58": {
+    "ruleName": "Meta element has no refresh delay (no exception)",
+    "consistency": "partial",
+    "procedureNames": [
+      "2_2_1.F41.2",
+      "2_2_1.F40.2"
+    ]
+  },
+  "9bd38c": {
+    "ruleName": "Content has alternative for visual reference",
+    "consistency": "partial",
+    "procedureNames": [
+      "2_4_1.H64.1"
+    ]
+  },
+  "ffbc54": {
+    "ruleName": "No keyboard shortcut uses only printable characters",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_10.C32,C31,C33,C38,SCR34,G206"
+    ]
+  },
+  "674b10": {
+    "ruleName": "Role attribute has valid value",
+    "consistency": null,
+    "procedureNames": [
+      "2_1_1.G90",
+      "4_1_2.H91.InputText.Name",
+      "1_3_1.F68"
+    ]
+  },
+  "4e8ab6": {
+    "ruleName": "Element with role attribute has required states and properties",
+    "consistency": null,
+    "procedureNames": [
+      "4_1_2.H91.InputCheckbox.Name",
+      "1_3_1.F68"
+    ]
+  },
+  "0ssw9k": {
+    "ruleName": "Scrollable element is keyboard accessible",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_1.H64.1"
+    ]
+  },
+  "oj04fd": {
+    "ruleName": "Element in sequential focus order has visible focus",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "d0f69e": {
+    "ruleName": "Table header cell has assigned cells",
+    "consistency": null,
+    "procedureNames": [
+      "1_3_1.H43.IncorrectAttr",
+      "1_3_1.H43,H63",
+      "1_3_1.F92,ARIA4",
+      "1_3_1.H39.3.NoCaption"
+    ]
+  },
+  "afw4f7": {
+    "ruleName": "Text has minimum contrast",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_3.G18.Alpha",
+      "1_4_3_F24.F24.BGColour",
+      "1_4_3_F24.F24.FGColour",
+      "1_4_3.G18.BgImage"
+    ]
+  },
+  "09o5cg": {
+    "ruleName": "Text has enhanced contrast",
+    "consistency": "minimal",
+    "procedureNames": [
+      "1_4_3.G18.Alpha",
+      "1_4_3_F24.F24.BGColour",
+      "1_4_3_F24.F24.FGColour",
+      "1_4_3.G18.BgImage"
+    ]
+  },
+  "eac66b": {
+    "ruleName": "Video element auditory content has accessible alternative",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "c5a4ea": {
+    "ruleName": "Video element visual content has accessible alternative",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "ab4d13": {
+    "ruleName": "Video element content is media alternative for text",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "1ea59c": {
+    "ruleName": "Video element visual content has audio description",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "f51b46": {
+    "ruleName": "Video element auditory content has captions",
+    "consistency": null,
+    "procedureNames": []
+  },
+  "f196ce": {
+    "ruleName": "DEPRECATED — Video element visual content has description track",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "c3232f": {
+    "ruleName": "Video element visual-only content has accessible alternative",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "fd26cf": {
+    "ruleName": "Video element visual-only content is media alternative for text",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "d7ba54": {
+    "ruleName": "Video element visual-only content has audio track alternative",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "ac7dc6": {
+    "ruleName": "DEPRECATED — Video element visual-only content has description track",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "ee13b5": {
+    "ruleName": "Video element visual-only content has transcript",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "1ec09b": {
+    "ruleName": "Video element visual content has strict accessible alternative",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "1a02b0": {
+    "ruleName": "Audio and visuals of video element have transcript",
+    "consistency": null,
+    "procedureNames": [
+      "2_4_2.H25.1.NoTitleEl"
+    ]
+  },
+  "2ee8b8": {
+    "ruleName": "Visible label is part of accessible name",
+    "consistency": "minimal",
+    "procedureNames": [
+      "2_5_3.F96"
+    ]
+  },
+  "59br37": {
+    "ruleName": "Zoomed text node is not clipped with CSS overflow",
+    "consistency": null,
+    "procedureNames": []
+  }
+}
