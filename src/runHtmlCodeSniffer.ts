@@ -1,7 +1,7 @@
 import puppeteer, { Page } from 'puppeteer-core';
 import { ActTestRunner, TestCase, TestResult } from 'act-tools';
 
-type HtmlCsIssue = {
+interface HtmlCsIssue {
   type: 1 | 2 | 3
   message: string
   code: string
@@ -18,7 +18,11 @@ declare global {
 
 const actRunner = new ActTestRunner({
   fileTypes: ['html'],
-  implementor: `html-code-sniffer`
+  implementor: {
+    name: `HTML_CodeSniffer`,
+    versionNumber: '2.5.1',
+    vendorName: 'Squiz Labs'
+  }
 });
 
 // Tell ActRunner where to load & store the reports
@@ -35,11 +39,10 @@ actRunner.setReporting({
   const page = await browser.newPage();
 
   // Run ACT test cases
-  await actRunner.run(async (testCase: TestCase, procedureIds?: string[]) => {
+  await actRunner.run(async ({ url }: TestCase, procedureIds?: string[]) => {
     if (Array.isArray(procedureIds) && procedureIds.length === 0) {
       return; // Not covered, can be skipped
     }
-    const { url } = testCase;
     await page.goto(url);
     const results = await runHtmlCS(page);
     return htmlCsToActResult(results);
@@ -57,7 +60,7 @@ async function runHtmlCS(page: Page): Promise<HtmlCsIssue[]> {
   return page.evaluate((): Promise<HtmlCsIssue[]> => {
     const { HTMLCS } = window;
     return new Promise(res => {
-      HTMLCS.process('WCAG2AA', window.document, () => {
+      HTMLCS.process('WCAG2AAA', window.document, () => {
         res(HTMLCS.getMessages());
       });
     })
