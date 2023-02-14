@@ -30,7 +30,7 @@
   },
   "b5c3f8": {
     "ruleName": "HTML page has `lang` attribute",
-    "consistency": "partial",
+    "consistency": "complete",
     "procedureNames": [
       "require-lang-attribute"
     ]
@@ -162,7 +162,7 @@
   },
   "e6952f": {
     "ruleName": "Attribute is not duplicated",
-    "consistency": "partial",
+    "consistency": "complete",
     "procedureNames": [
       "no-duplicate-attributes"
     ]
@@ -309,7 +309,7 @@
     ]
   },
   "akn7bn": {
-    "ruleName": "Iframe with negative tabindex has no interactive elements",
+    "ruleName": "Iframe with interactive elements is not excluded from tab-order",
     "consistency": null,
     "procedureNames": []
   },
@@ -318,14 +318,6 @@
     "consistency": null,
     "procedureNames": [
       "require-valid-alt-text"
-    ]
-  },
-  "9eb3f6": {
-    "ruleName": "DEPRECATED — Image filename is accessible name for image",
-    "consistency": null,
-    "procedureNames": [
-      "require-input-label",
-      "no-whitespace-for-layout"
     ]
   },
   "0va7u6": {
@@ -453,11 +445,6 @@
     "consistency": null,
     "procedureNames": []
   },
-  "f196ce": {
-    "ruleName": "DEPRECATED — Video element visual content has description track",
-    "consistency": null,
-    "procedureNames": []
-  },
   "c3232f": {
     "ruleName": "Video element visual-only content has accessible alternative",
     "consistency": null,
@@ -470,11 +457,6 @@
   },
   "d7ba54": {
     "ruleName": "Video element visual-only content has audio track alternative",
-    "consistency": null,
-    "procedureNames": []
-  },
-  "ac7dc6": {
-    "ruleName": "DEPRECATED — Video element visual-only content has description track",
     "consistency": null,
     "procedureNames": []
   },
